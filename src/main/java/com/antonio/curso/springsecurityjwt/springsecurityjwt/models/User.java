@@ -27,7 +27,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "users")
 public class User {
-     @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_user")
     private Long idUser;
