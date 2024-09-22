@@ -11,7 +11,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
 @Component
-public class JwtTokenProvider {
+public class JwtGenerator {
 
     //Método para crear un token por medio de la autenticación
     public String generateToken(Authentication authentication) {
